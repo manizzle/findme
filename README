@@ -1,0 +1,60 @@
+/*
+ * Copyright (c) 2009 Murtaza Munaim
+ * 
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the "Software"), to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
+ * 
+ * The above copyright notice and this permission notice shall be included in
+ * all copies or substantial portions of the Software.
+ * 
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+ * THE SOFTWARE.
+ */
+ 
+ You will need some Java 1.6 Compiler
+ 
+ Usage:
+ 
+ Compile:  javac ./*.java
+ 
+ Run: java SolvePuzzle
+ 
+ Prompt will ask for a Problem Set to choose from. The problems that have been
+ implemented and ready for you to test are the Gem Puzzle problem and the Sudoku problem.
+ 
+ Prompt will also ask for a solver type.
+ You can choose from the Depth-First search algorithm, the Breadth-first search algorithm,
+ or the AStar search algorithm.
+ 
+ The Third parameter the prompt will ask for is the max cost, or the maximum number of moves in which you want the puzzle 
+ solved in. *Note* For the Sudoku problem, this number should always be the number of blank spots left in the 9x9 grid.
+ 
+ The fourth and final parameter is the number of solutions to the problem you want. Again, this is only really applicable to the 
+ Gem Puzzle, where multiple solutions are possible. However, the Sudokue problem, this would be best left at 1, for there is only
+ one possible solution to a Sudoku problem(hehe).
+ 
+ Once these parameters are entered, your solution should appear shortly.
+ 
+ Here are some examples of commands you can give to the Prompt:
+ 
+ SudokuPuzzle DFSSolver 60 1
+ SudokuPuzzle BFSSolver 60 1
+ SudokuPuzzle AStarSolver 60 1
+ GemPuzzle DFSSolver 10 1
+ GemPuzzle BFSSolver 10 1
+ GemPuzzle AStarSolver 18 40
+ 
+ Experiment if you will.
+ 
+ 
+ 
+ 
